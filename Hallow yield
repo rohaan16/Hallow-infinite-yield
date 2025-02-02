@@ -1,5 +1,5 @@
 if IY_LOADED and not _G.IY_DEBUG == true then
-    -- error("Hallow Yield is already running!", 0)
+    -- error("Nigger Yield is already running!", 0)
     return
 end
 
@@ -12,12 +12,12 @@ Players = cloneref(game:GetService("Players"))
 if not game:IsLoaded() then
     local notLoaded = Instance.new("Message")
     notLoaded.Parent = COREGUI
-    notLoaded.Text = "Hallow Yield is waiting for the game to load"
+    notLoaded.Text = "Nigger Yield is waiting for the game to load"
     game.Loaded:Wait()
     notLoaded:Destroy()
 end
 
-currentVersion = "Hallow Sigma fr"
+currentVersion = "Nigger"
 
 Holder = Instance.new("Frame")
 Title = Instance.new("TextLabel")
@@ -207,7 +207,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "Hallow Yield FE version " .. currentVersion
+Title.Text = "Nigger Yield FE v " .. currentVersion
 
 do
 	local emoji = ({
