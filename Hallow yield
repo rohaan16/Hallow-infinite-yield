@@ -1463,7 +1463,7 @@ PluginsHint.Position = UDim2.new(0, 25, 0, 40)
 PluginsHint.Size = UDim2.new(0, 200, 0, 50)
 PluginsHint.Font = Enum.Font.SourceSansItalic
 PluginsHint.TextSize = 16
-PluginsHint.Text = "Download plugins from the IY Discord (discord.gg/78ZuWSq)"
+PluginsHint.Text = "Download plugins from the IY Discord (discord.gg/zFNS9V7xEr)"
 PluginsHint.TextColor3 = Color3.new(1, 1, 1)
 PluginsHint.TextStrokeColor3 = Color3.new(1, 1, 1)
 PluginsHint.TextWrapped = true
@@ -2794,7 +2794,7 @@ reference = (function()
 	local lastPress = nil
 	inviteButton.MouseButton1Click:Connect(function()
 		if everyClipboard then
-			toClipboard("https://discord.gg/78ZuWSq")
+			toClipboard("https://discord.gg/zFNS9V7xEr")
 			inviteButton.Text = "Copied"
 		else
 			inviteButton.Text = "No Clipboard Function, type out the link"
@@ -2803,7 +2803,7 @@ reference = (function()
 		lastPress = pressTime
 		wait(2)
 		if lastPress ~= pressTime then return end
-		inviteButton.Text = "Copy Discord Invite Link (https://discord.gg/78ZuWSq)"
+		inviteButton.Text = "Copy Discord Invite Link (https://discord.gg/zFNS9V7xEr)"
 	end)
 	dragGUI(main)
 	main.Parent = ScaledHolder
@@ -6388,10 +6388,10 @@ end)
 
 addcmd('discord', {'support', 'help'}, function(args, speaker)
 	if everyClipboard then
-		toClipboard('https://discord.com/invite/dYHag43eeU')
-		notify('Discord Invite', 'Copied to clipboard!\ndiscord.gg/dYHag43eeU')
+		toClipboard('https://discord.com/invite/zFNS9V7xEr')
+		notify('Discord Invite', 'Copied to clipboard!\ndiscord.gg/zFNS9V7xEr')
 	else
-		notify('Discord Invite', 'discord.gg/dYHag43eeU')
+		notify('Discord Invite', 'discord.gg/zFNS9V7xEr')
 	end
 	if httprequest then
 		httprequest({
